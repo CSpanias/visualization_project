@@ -12,4 +12,5 @@ Created with:
 Learned about:
 * Interactive visualizations
 * JSON files
+* Error-checking code (try-except-else blocks)
 * Data analysis
