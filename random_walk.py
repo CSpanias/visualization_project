@@ -13,14 +13,14 @@ class RandomWalk:
         self.y_values = [0]
 
 
-def get_step(self):
-    """Calculate the distance and the direction of each step."""
+    def get_step(self):
+        """Calculate the distance and the direction of each step."""
 
-    # decide which direction to go and how far to go in that direction
-    direction = choice([1, -1])
-    distance = choice([0, 1, 2, 3, 4])
-    step = direction * distance
-    return step
+        # decide which direction to go and how far to go in that direction
+        direction = choice([1, -1])
+        distance = choice([0, 1, 2, 3, 4])
+        step = direction * distance
+        return step
 
 
     def fill_walk(self):
