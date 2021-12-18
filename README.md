@@ -7,4 +7,9 @@ You can find more info [here](https://ehmatthes.github.io/pcc_2e/regular_index/)
 <img src="https://github.com/CSpanias/visualization_project/blob/master/rw_visual.png" height=300>
 
 Created with:
-* Python (matplotlib, plotly)
+* Python (matplotlib, plotly, csv, json)
+
+Learned about:
+* Interactive visualizations
+* JSON files
+* Data analysis
