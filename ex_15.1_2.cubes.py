@@ -30,4 +30,5 @@ ax.set_ylabel("Cube of Values")
 
 ax.axis([0, 1001, 0, 1_000_000_000])
 
+#plt.savefig('15.2.png', bbox_inches='tight')
 plt.show()
