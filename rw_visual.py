@@ -28,8 +28,8 @@ while True:
     # name axes
     ax.set_title("A random walk with 50,000 points")
 
-    plt.savefig('rw_visual.png', bbox_inches='tight')
-    #plt.show()
+    #plt.savefig('rw_visual.png', bbox_inches='tight')
+    plt.show()
 
     keep_running = input("Make another walk? (y/n): ")
     if keep_running == 'n':
