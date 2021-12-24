@@ -18,23 +18,15 @@ all_eq_dicts = all_eq_data['features']
 # extract magnitudes, and location data
 mags, lons, lats, hover_texts = [], [], [], []
 for eq_dict in all_eq_dicts:
-    
     # extract magnitudes
-    mag = eq_dict['properties']['mag']
-    mags.append(mag)
-    
+    mags.append(eq_dict['properties']['mag'])
     # extract longitude
-    lon = eq_dict['geometry']['coordinates'][0]
-    lons.append(lon)
-    
+    lons.append(eq_dict['geometry']['coordinates'][0])
     # extract latitude
-    lat = eq_dict['geometry']['coordinates'][1]
-    lats.append(lat)
-    
+    lats.append(eq_dict['geometry']['coordinates'][1])
     # extract location name
-    title = eq_dict['properties']['title']
-    hover_texts.append(title)
-    
+    hover_texts.append(eq_dict['properties']['title'])
+
 """
 map the earthquakes
 """
@@ -59,8 +51,10 @@ data = [{
     }
 }]
 
+# extract the title from JSON
+title = all_eq_data['metadata']['title']
 # set and center a graph title
-my_layout = Layout(title='Global Earthquakes', title_x=0.5)
+my_layout = Layout(title=title, title_x=0.5)
 
 
 fig = {'data': data, 'layout': my_layout}
