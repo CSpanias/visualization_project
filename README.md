@@ -1,4 +1,4 @@
-# Project 2 (ongoing)
+# Data Visualization
 
 This is a guided project from the book: [*Python Crash Course: A Hands-On, Project-Based Introduction to Programming*](https://nostarch.com/pythoncrashcourse2e).  
 
